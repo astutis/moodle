@@ -193,7 +193,8 @@ function removedrawer() {
 
   if (
     astRole.includes("admin") === true ||
-    astRole.includes("clientadmin") === true
+    astRole.includes("clientadmin") === true ||
+    astRole.includes("onlinecustomersupport") === true
   ) {
     drawerRight.classList.remove("d-none");
   }
