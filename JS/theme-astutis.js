@@ -103,6 +103,21 @@ function brandColors() {
       }
       // Leave this as it is
       body.style.background = bodyBg;
+
+      //Change welcome message
+      const welcomeMessageAstutis = document.querySelector(
+        ".ast-welcome-message.astutis"
+      );
+      const welcomeMessageAmazon = document.querySelector(
+        ".ast-welcome-message.amazon"
+      );
+
+      if (welcomeMessageAmazon != undefined) {
+        console.log("Worked!");
+        welcomeMessageAmazon.classList.remove("d-none");
+        welcomeMessageAstutis.classList.add("d-none");
+      }
+
       break;
     case "":
       bodyBg = `url("https://mylearningdev4.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
