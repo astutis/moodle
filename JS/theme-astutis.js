@@ -120,7 +120,7 @@ function brandColors() {
 
       break;
     case "":
-      bodyBg = `url("https://mylearningdev4.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
+      bodyBg = `url("https://learning.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
 
       // Set brand colours
       brandColor1 = "#A243FF";
@@ -154,7 +154,7 @@ function brandColors() {
       body.style.background = bodyBg;
       break;
     default:
-      bodyBg = `url("https://mylearningdev4.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
+      bodyBg = `url("https://learning.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
 
       // Set brand colours
       brandColor1 = "#A243FF";
